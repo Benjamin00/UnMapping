@@ -1,0 +1,40 @@
+.card:hover {
+	background-color: gray; /*tweak this color, red is lame* /
+							/*$().button('toggle')----> Toggles if button has been pressed or not*/
+
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+	margin-bottom: 30px;
+}
+
+nav button.navbar-toggle {
+
+}
+
+
+
+.footer {
+			background-color: #F1F1F1;
+			position: fixed;
+			bottom:0;
+			right:0;
+			width:300px;
+}
+
+.bg-picture{
+	background-image: url("../assets/maxresdefault.jpg");
+	 height: 100%;
+	  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+html{
+	height:100%;
+}

@@ -14,20 +14,18 @@ export class AppComponent implements OnInit {
   //Activity Level: Gym
 
   // private preferences: any = [
-  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young"},
-  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young"},
-  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young"}
+  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young","Activity Level:" ["gym"]},
+  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young"},"Activity Level:" ["gym"]}
+  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young"},"Activity Level:" ["gym"]}
+  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young"},"Activity Level:" ["gym"]}
   // ];
 
   private preferences: any = [
-    "Single", "Married", "Kids", "Vegan", "Halal", "18-25", "25+"
+    "Single", "Married", "Kids", "Vegan", "Halal", "18-25", "25+", "Gym", "Trails";
   ]
 
   constructor() { }
 
   ngOnInit() {
-    // this.preferences.forEach((obj) => {
-    //
-    // })
   }
 }
