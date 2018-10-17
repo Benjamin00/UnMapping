@@ -14,15 +14,15 @@ export class AppComponent implements OnInit {
   //Activity Level: Gym
 
   // private preferences: any = [
-  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young","Activity Level:" ["gym"]},
-  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young"},"Activity Level:" ["gym"]}
-  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young"},"Activity Level:" ["gym"]}
-  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young"},"Activity Level:" ["gym"]}
+  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young"},"Activity Level:"["gym","parks"]},
+  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young"},"Activity Level:"["gym","parks"]}
+  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young"},"Activity Level:"["gym","parks"]}
+  //   {"marital_status": "single", "kids": false, "food": ["vegan","halal"], "age": "young"},"Activity Level:"["gym","parks"]}
   // ];
 
   private preferences: any = [
-    "Single", "Married", "Kids", "Vegan", "Halal", "18-25", "25+", "Gym", "Trails";
-  ]
+    "Single", "Married", "Kids", "Vegan", "Halal", "18-25", "25+","Parks", "Gyms",
+  ];
 
   constructor() { }
 
