@@ -1,40 +1,6 @@
-<div class="bg-picture">
-<div class="container-fluid">
-	<!-- Add Button
-	Change Hover color
-	Add spacing between cards and navbar
-	And fix uto layout issue -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Unorthodox Mapping</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			<div id="intro" class="view">
-  <div class="mask">
-  </div>
+<div class="ui top attached menu">
+  <div class="ui dropdown icon item">
+    Unorthodox Mapping
+ </div>
 </div>
-		</button>
-	</nav>
-</div>
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-sm" *ngFor="let object of preferences">
-			<label class="btn btn-success active">
-				<input type = "checkbox" name ="preferences" id="single" value="single">
-			</label>
-			<button type="button" class="btn btn-success active">{{object}}</button>
-			<div class="button" style="width: 24rem;">
-				<div class="button-body">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<button type="button" class="btn btn-primary active">Submit</button>
-	</div>
-	</div>
-	<div class="container">
-	</div>
-		</div>
-		<div class="container-fluid">
-		<div class="row">
-</div> 
+<router-outlet></router-outlet>
