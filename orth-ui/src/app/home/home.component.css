@@ -11,8 +11,8 @@ nav button.navbar-toggle {
 }
 
 .button{
-	height:100px;
-	width:250px;
+	height:135px;
+	width:135px;
 }
 
 h1{
@@ -30,8 +30,8 @@ html{
 
 .bg-picture{
 	background-image: url(../../assets/dallas_skyscrapers_buildings_night_59125_2560x1080.jpg);
-	height:722px;
-	width:1536px;
+	height:680px;
+	width:1537px;
 	background-color: white;
 	background-attachment: fixed;
 	background position: center center;
