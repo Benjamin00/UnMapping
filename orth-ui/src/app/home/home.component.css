@@ -1,35 +1,11 @@
-.btn-sample:active {
-  background-color:rgb();
-}
-
-nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-	margin-bottom: 30px;
-}
-
-nav button.navbar-toggle {
-
-}
-
-.button{
-	height:135px;
-	width:135px;
-}
-
-h1{
-	color: blue;
-	background-color:lightgrey;
-	border: lightgrey;
-	font-size: 30px;
-}
-
+/**** BODY ****/
 html{
 
 	height:100%;
 }
 
-
 .bg-picture{
-	background-image: url(../../assets/dallas_skyscrapers_buildings_night_59125_2560x1080.jpg);
+	/*background-image: url(../../assets/dallas_skyscrapers_buildings_night_59125_2560x1080.jpg);*/
 	height:680px;
 	width:1537px;
 	background-color: white;
@@ -41,10 +17,144 @@ html{
 	opacity:0.700;
 }
 
+/**** BUTTONS ****/
+
+.button{
+	height:135px;
+	width:135px;
+}
+
+button.btn.btn-success.btn-block {
+	background-color: white;
+	color: #171A21;
+	padding: 30px;
+	margin-bottom: 50px;
+	height: 200px;
+	font-size: 1.5em;
+}
+
+.btn-sample:active {
+  background-color: rgb();
+}
+
+.selected {
+	background-color: white !important;
+	-webkit-box-shadow: 0px -1px 29px 0px rgba(84,13,110,1);
+	-moz-box-shadow: 0px -1px 29px 0px rgba(84,13,110,1);
+	box-shadow: 0px -1px 29px 0px rgba(84,13,110,1);
+}
+
+#singleImg {
+	background-image: url(../../assets/Single.jpg) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #ffd23f;
+	text-shadow: 1px 1px black;
+}
+
+#marriedImg{
+	background-image: url(../../assets/Married.jpg) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #ffd23f;
+	text-shadow: 1px 1px black;
+}
+
+#kidsImg{
+	background-image: url(../../assets/Kids.jpg) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #ffd23f;
+	text-shadow: 1px 1px black;
+}
+
+#veganImg{
+	background-image: url(../../assets/Vegan.jpg) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #ffd23f;
+	text-shadow: 1px 1px black;
+}
+
+#halalImg{
+	background-image: url(../../assets/Halal.jpg) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #ffd23f;
+	text-shadow: 1px 1px black;
+}
+#eighteentwentyfiveImg{
+	background-image: url(../../assets/Eighteen.jpg) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #ffd23f;
+	text-shadow: 1px 1px black;
+}
+
+#twentyfiveImg{
+	background-image: url(../../assets/Twentyfive.jpg) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 25% 35%;
+	color: #ffd23f;
+	text-shadow: 1px 1px black;
+}
+
+#parksImg{
+	background-image: url(../../assets/Parks.jpg) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 25% 35%;
+	color: #ffd23f;
+	text-shadow: 1px 1px black;
+}
+
+#gymsImg{
+	background-image: url(../../assets/Gyms.jpg) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 25% 35%;
+	color: #ffd23f;
+	text-shadow: 1px 1px black;
+}
+
+/**** NAVIGATION ***/
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+	margin-bottom: 30px;
+}
+
+nav button.navbar-toggle {
+
+}
+
+
 .dashed{
 	border-style: dashed;
 	padding: 10px ;
 	display:inline-block;
-
 }
+
+/**** HEADINGS ****/
+
+h1{
+	color: blue;
+	background-color:lightgrey;
+	border: lightgrey;
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
 

@@ -1,7 +1,7 @@
 <div class="bg-picture">
 <div class="container-fluid">
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Unorthodox Mapping</a>
+		<a class="navbar-brand" href="/home">Unorthodox Mapping</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 			<div id="intro" class="view">
@@ -13,12 +13,18 @@
 </div>
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-sm" *ngFor="let object of preferences">
-			<button type="button" class="btn btn-success btn-block active">{{object}}</button>
-			<div class="button" style="width: 24rem;">
-				<div class="button-body">
-				</div>
-			</div>
+		<h1>Select Your Categories</h1>
+	</div>
+	<div class="row">
+		
+		<div class="col-sm-4" *ngFor="let object of preferences">
+			<button [ngClass]="object.selected === true ? 'selected': ''" (click)="onClick(object)" type="button" class="btn btn-success btn-block active" id="{{object.id}}">{{object.item}}</button>
+			<!-- <div class="button" style="width: 24rem;"> -->
+				<!-- <div class="button-body"> -->
+					<!-- <div (click) = "!object.selected">
+					</div> -->
+				<!-- </div> -->
+			<!-- </div> -->
 		</div>
 `	</div>
 	<div class="row">

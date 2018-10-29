@@ -21,12 +21,57 @@ export class HomeComponent implements OnInit {
   // ];
 
   private preferences: any = [
-    "Single", "Married", "Kids", "Vegan", "Halal", "18-25", "25+","Parks", "Gyms",
+    {
+    	item: "Single",
+    	selected: false,
+    	id: "singleImg"
+    },
+     {
+    	item: "Married",
+    	selected: false,
+    	id: "marriedImg"
+
+    }, {
+    	item: "Kids",
+    	selected: false,
+    	id:"kidsImg"
+    },{
+    	item: "Vegan",
+    	selected: false,
+    	id:"veganImg"
+    }, {
+    	item: "Halal",
+    	selected: false,
+    	id:"halalImg"
+    }, {
+    	item: "18-25",
+    	selected: false,
+    	id:"eighteentwentyfiveImg"
+    }, {
+    	item: "25+",
+    	selected: false,
+    	id:"twentyfiveImg"
+    },{
+    	item: "Parks",
+    	selected: false,
+    	id:"parksImg"
+    }, {
+    	item: "Gyms",
+    	selected: false,
+    	id:"gymsImg"
+    }
+ 
   ];
 
   constructor() { }
 
   ngOnInit() {
+  } 
+
+  public onClick(obj:any) {
+  	obj.selected = !obj.selected;
+  	console.log(obj);
+
   }
 
-}
+} 
