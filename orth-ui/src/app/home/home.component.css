@@ -6,9 +6,9 @@ html{
 
 .bg-picture{
 	/*background-image: url(../../assets/dallas_skyscrapers_buildings_night_59125_2560x1080.jpg);*/
-	height:680px;
+	height:960px;
 	width:1537px;
-	background-color: white;
+	background-color:#c7ecee;
 	background-attachment: fixed;
 	background position: center center;
 	background-repeat:no-repeat;
@@ -39,9 +39,9 @@ button.btn.btn-success.btn-block {
 
 .selected {
 	background-color: white !important;
-	-webkit-box-shadow: 0px -1px 29px 0px rgba(84,13,110,1);
-	-moz-box-shadow: 0px -1px 29px 0px rgba(84,13,110,1);
-	box-shadow: 0px -1px 29px 0px rgba(84,13,110,1);
+	-webkit-box-shadow: 0px 0px 41px 0px rgba(6,82,221,1);
+	-moz-box-shadow: 0px 0px 41px 0px rgba(6,82,221,1);
+	box-shadow: 0px 0px 41px 0px rgba(6,82,221,1);
 }
 
 #singleImg {
@@ -49,7 +49,7 @@ button.btn.btn-success.btn-block {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	color: #ffd23f;
+	color: #eb4d4b;
 	text-shadow: 1px 1px black;
 }
 
@@ -58,7 +58,7 @@ button.btn.btn-success.btn-block {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	color: #ffd23f;
+	color:#eb4d4b;
 	text-shadow: 1px 1px black;
 }
 
@@ -67,7 +67,7 @@ button.btn.btn-success.btn-block {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	color: #ffd23f;
+	color: #eb4d4b;
 	text-shadow: 1px 1px black;
 }
 
@@ -76,7 +76,7 @@ button.btn.btn-success.btn-block {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	color: #ffd23f;
+	color: #eb4d4b;
 	text-shadow: 1px 1px black;
 }
 
@@ -85,7 +85,7 @@ button.btn.btn-success.btn-block {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	color: #ffd23f;
+	color: #eb4d4b;
 	text-shadow: 1px 1px black;
 }
 #eighteentwentyfiveImg{
@@ -93,7 +93,7 @@ button.btn.btn-success.btn-block {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	color: #ffd23f;
+	color: #eb4d4b;
 	text-shadow: 1px 1px black;
 }
 
@@ -102,7 +102,7 @@ button.btn.btn-success.btn-block {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 25% 35%;
-	color: #ffd23f;
+	color: #eb4d4b;
 	text-shadow: 1px 1px black;
 }
 
@@ -111,7 +111,7 @@ button.btn.btn-success.btn-block {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 25% 35%;
-	color: #ffd23f;
+	color: #eb4d4b;
 	text-shadow: 1px 1px black;
 }
 
@@ -120,7 +120,7 @@ button.btn.btn-success.btn-block {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 25% 35%;
-	color: #ffd23f;
+	color: #eb4d4b;
 	text-shadow: 1px 1px black;
 }
 
@@ -143,18 +143,9 @@ nav button.navbar-toggle {
 /**** HEADINGS ****/
 
 h1{
-	color: blue;
-	background-color:lightgrey;
+	color: #4834d4;
+	background-color:black();
 	border: lightgrey;
 	font-size: 30px;
+
 }
-
-
-
-
-
-
-
-
-
-
